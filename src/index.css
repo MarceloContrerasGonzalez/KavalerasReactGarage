@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  
+}
+
+.upper-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white; 
+  margin: 0 3rem;
+}
+
+.upper-left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inter-hr{
+  border: none;
+  background-color: black;
+  width: 90%;
+  height: 1px;
+  margin: 5px auto;
+  
+}
+
+.under-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
+
+.logo{
+  justify-content: start;
+  margin-left: 3rem;
+}
+
+.head-menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+}
+
+.head-menu li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.head-menu li a:hover{
+  color: gray;
+}
+
+.contact{
+  margin-right: 3rem;
+}
+
+.contact button{
+  color: white;
+  background-color: rgb(176, 6, 6);
+  border: none;
+  border-radius: 30px;
+  width: 105px;
+  height: 40px;
+  font-size: 20px;
+}
+.contact button:hover{
+  background-color: rgb(125, 4, 4);
+}
+
+.inicio{
+  font-family: Roboto,sans-serif;
+  background-image: url("https://kavalerasbikes.cl/wp-content/uploads/2025/02/BannerHome.png");
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.contenedor-inicio{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.inicio-title{
+  font-size: 54px;
+  margin-bottom: 1rem;
+}
+
+.inicio-texto{
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+.contenedor-inicio button{
+  color: white;
+  background-color: rgb(176, 6, 6);
+  border: none;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+}
+.contenedor-inicio button:hover{
+  background-color: rgb(125, 4, 4);
+}
