@@ -45,7 +45,7 @@ console.log("renderiza")
         <section className='inicio'>
           <article className='contenedor-inicio'>
             <h1 className='inicio-title'>Taller de Motos en Santiago Mantención y Reparación de Confianza</h1>
-            <p className='inicio-texto'>	Servicio técnico especializado en mantención y repración multimarca. ¡Cotiza Hoy! Cuidado exprerto para tu motocicleta.</p>
+            <p className='inicio-texto'>	Servicio técnico especializado en mantención y reparación multimarca. ¡Cotiza Hoy! Cuidado experto para tu motocicleta.</p>
             <a href="https://wa.me/56950117827"><button>Consulta Aquí</button></a>
           </article>
         </section>
